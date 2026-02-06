@@ -14,7 +14,10 @@
     "@trpc/next": "^11.9.0",
     "@trpc/react-query": "^11.9.0",
     "@trpc/server": "^11.9.0",
+    "axios": "^1.13.4",
+    "axios-cache-interceptor": "^1.11.4",
     "next": "15.5.12",
+    "pokenode-ts": "^1.20.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "zod": "^4.3.6"
