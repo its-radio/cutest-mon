@@ -1,9 +1,11 @@
 import { initTRPC } from '@trpc/server';
 import { z } from 'zod/v4';
-
+import superjson from 'superjson'; 
 import { PokemonClient } from 'pokenode-ts';
 
-const t = initTRPC.create();
+const t = initTRPC.create({
+  transformer: superjson
+});
 
 export const appRouter = t.router({
 
