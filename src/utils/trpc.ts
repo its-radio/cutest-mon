@@ -2,7 +2,6 @@ import { createTRPCNext } from '@trpc/next';
 import { httpBatchLink } from '@trpc/client';
 import type { AppRouter } from '@/pages/api/trpc/[trpc]';
 
-
 import { ssrPrepass } from '@trpc/next/ssrPrepass';
 import superjson from 'superjson';
 
